@@ -13,6 +13,22 @@
         h1, h2, h3 {
             color: #2c3e50;
         }
+        .figure {
+            margin: 20px 0;
+        }
+        .cost-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .cost-table th, .cost-table td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        .cost-table th {
+            background-color: #f4f4f4;
+        }
     </style>
 </head>
 <body>
@@ -28,16 +44,66 @@
     <h2>3. Design and Materials</h2>
     <p>Overview of the design process.</p>
     <p>List of materials used and their costs.</p>
-    
+
+    <h3>Materials and Costs</h3>
+    <table class="cost-table">
+        <thead>
+            <tr>
+                <th>Part</th>
+                <th>Quantity</th>
+                <th>Cost per Unit</th>
+                <th>Total Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Electrode Material</td>
+                <td>2</td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+            </tr>
+            <tr>
+                <td>Glass Beaker</td>
+                <td>1</td>
+                <td>$5.00</td>
+                <td>$5.00</td>
+            </tr>
+            <tr>
+                <td>Wires</td>
+                <td>1</td>
+                <td>$2.00</td>
+                <td>$2.00</td>
+            </tr>
+            <tr>
+                <td>Other Materials</td>
+                <td>-</td>
+                <td>-</td>
+                <td>$3.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Total Cost</th>
+                <th>$30.00</th>
+            </tr>
+        </tfoot>
+    </table>
+
     <h2>4. Construction Process</h2>
     <p>Step-by-step description of building the apparatus.</p>
     <p>Challenges faced and how they were overcome.</p>
-    
+
     <h2>5. Results and Analysis</h2>
     <p>Performance evaluation of the electrochemical cell.</p>
     <p>Data and graphs demonstrating effectiveness.</p>
-    
-    <h2>6. Conclusion</h2>
+
+    <h2>6. Figures</h2>
+    <div class="figure">
+        <img src="path/to/your/image.jpg" alt="Custom Electrochemical Cell" style="width:100%; max-width:600px;">
+        <p><em>Figure 1: Custom Electrochemical Cell Setup</em></p>
+    </div>
+
+    <h2>7. Conclusion</h2>
     <p>Summary of the project’s success and potential improvements.</p>
 
     <p><a href="index.html">Back to Portfolio</a></p>
